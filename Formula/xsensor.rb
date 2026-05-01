@@ -1,20 +1,20 @@
 class Xsensor < Formula
   desc "XSensor infrastructure CLI"
   homepage "https://github.com/xsensor-team/xsensor"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
-    url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.6/xsensor-aarch64-apple-darwin.tar.gz"
-    sha256 "fcd837c5410495df3bdb2c9e8ab667ee7e9670a67f0061b5ac1b98302c78317d"
+    url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.7/xsensor-aarch64-apple-darwin.tar.gz"
+    sha256 "a2171143464c86a2f9eec32962330f705620e8bcb860c8a593d1f47c5a2013c8"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.6/xsensor-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "45f07cc5ffd31f011122a897e8dacbedec8e1e010df9640ff10be1cdca69b9e6"
+      url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.7/xsensor-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d5150dc53ef121b3ea26a4d8267228fe1320ed8926bde96040c97352abf2a318"
     else
-      url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.6/xsensor-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3003a43e39d3a12c1a81a7909533199aaf361c09801b4b70f4ebf958bbca1f34"
+      url "https://github.com/xsensor-team/homebrew-xsensor/releases/download/v0.1.7/xsensor-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eda1cebcb5a54322cd4f3ee78cf01ea9a961289e012bd7a030a9851486a119c0"
     end
   end
 
